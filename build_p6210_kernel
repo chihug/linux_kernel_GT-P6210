@@ -5,9 +5,9 @@
 #  pulling the latest source directly from google has it prebuilt
 #COMPILER_DIR=$HOME/google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
 #  also prebuilt in the android ndk
-#COMPILER_DIR=$HOME/android-ndk-r7/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-
+COMPILER_DIR=$HOME/android-ndk-r7/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-
 #  and also prebuilt from the cyanogenmod source
-COMPILER_DIR=$HOME/android/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
+#COMPILER_DIR=$HOME/android/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
 
 # pull a copy if the initramfs from a generic "initramfs" directory thats
 # a sibling of the CWD
